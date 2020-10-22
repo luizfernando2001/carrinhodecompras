@@ -1,0 +1,243 @@
+.luiz{ background-color:  rgba(0, 174, 255, 0.541);}
+
+.luizjj {background-color: rgba(255, 255, 255, 0.363);
+    border-style: double;
+border-color: grey;}
+
+.luizjj1 {
+    
+position: fixed ;
+
+
+}
+.preco{ padding-left: 110px;}
+.preco2{padding-left: 140px;}
+.pagamento{ padding-left: 300px;}
+body{ background-image: url(public/bootstrap/img/plawy.jpg);}
+
+/* rodape */
+#myFooter {
+    background-color:rgba(0, 174, 255, 0.541);
+    color: white;
+    
+}
+
+#myFooter .footer-copyright {
+    background-color:rgba(0, 174, 255, 0.589);
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+}
+
+#myFooter .row {
+    margin-bottom: 25px;
+}
+
+#myFooter .navbar-brand {
+    margin-top: 45px;
+    height: 65px;
+}
+
+#myFooter .footer-copyright p {
+    margin: 10px;
+    color: white;
+    text-shadow: 1px 1px 10px black;
+}
+
+#myFooter ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+}
+
+#myFooter h5 {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+#myFooter h2 a{
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+}
+
+#myFooter a {
+    color: #d2d1d1;
+    text-decoration: none;
+}
+
+#myFooter a:hover,
+#myFooter a:focus {
+    text-decoration: none;
+    color: white;
+}
+
+#myFooter .social-networks {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 16px;
+}
+
+#myFooter .social-networks a {
+    font-size: 32px;
+    color: #f9f9f9;
+    padding: 10px;
+    transition: 0.2s;
+}
+
+#myFooter .social-networks a:hover {
+    text-decoration: none;
+}
+
+#myFooter .facebook:hover {
+    color: #0077e2;
+}
+
+#myFooter .instagram:hover {
+    color: purple;
+}
+
+#myFooter .twitter:hover {
+    color: #00aced;
+}
+
+#myFooter .btn {
+    color: white;
+    background-color: #d84b6b;
+    border-radius: 20px;
+    border: none;
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    line-height: 25px;
+}
+
+@media screen and (max-width: 767px) {
+    #myFooter {
+        text-align: center;
+    }
+}
+
+
+/* CSS utilizado para posicionar o rodapé no final da página. */
+
+
+html{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    height: 100%;
+}
+
+.content{
+   flex: 1 0 auto;
+   -webkit-flex: 1 0 auto;
+   min-height: 200px;
+}
+
+#myFooter{
+   flex: 0 0 auto;
+   -webkit-flex: 0 0 auto;
+}
+/* rodape */
+/* modal */
+.modal1{
+
+background-image: url(public/bootstrap/img/Blue-Gradient-Blur-Background-For-Free.jpg);
+
+}
+
+
+/* scholbar  tamanho  */
+::-webkit-scrollbar{
+
+    width: 8px;
+    
+    }
+    /* coloraçao parte do meio */
+    ::-webkit-scrollbar-thumb{
+    background: linear-gradient(transparent,#02c4f5);
+    border-radius: 5px;
+    }
+    ::-webkit-scrollbar-thumb:hover{
+    
+        background: linear-gradient(transparent,#036df7);
+    
+    }
+
+    /* botao de subir ao topo */
+#subirTopo {
+    text-decoration: none;
+    background: rgba(4, 172, 238, 0.9);
+    bottom: 30px;
+    right: 20px;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: fixed;
+    border: 0;
+    font-family: sans-serif;
+    opacity: .8;
+    }
+    
+    #subirTopo:hover {
+    opacity:1;
+    }
+/* final */
+
+
+/* ZOOM na imagem  */
+.zoom {
+	overflow: hidden;
+}
+
+.zoom img {
+	max-width: 100%;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.zoom:hover img {
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+/* Fim ZOom imagem */
+
+/* carouceu */
+/* override position and transform in 3.3.x */
+.carousel-inner .item.left.active {
+    transform: translateX(-50%);
+  }
+  .carousel-inner .item.right.active {
+    transform: translateX(50%);
+  }
+  
+  .carousel-inner .item.next {
+    transform: translateX(50%)
+  }
+  .carousel-inner .item.prev {
+    transform: translateX(-50%)
+  }
+  
+  .carousel-inner .item.right,
+  .carousel-inner .item.left { 
+    transform: translateX(0);
+  }
+  
+  
+  .carousel-control.left,.carousel-control.right {background-image:none;}

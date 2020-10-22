@@ -1,0 +1,30 @@
+        @font-face {
+            font-family: "ool";
+            src: url(../bootstrap/fonts/OldLondon.ttf);
+        }
+        
+        h2 {
+            font-family: "ool";
+        }
+        
+        .container {
+            border-style: double;
+            width: 750px;
+        }
+        
+        .container:hover {
+            box-shadow: 1px 1px 20px rgb(65, 21, 224);
+        }
+        
+        img {
+            border-style: double;
+        }
+        
+        .row {
+            background-image: url(img/texturabranca.jpg);
+        }
+        
+        .junio {
+            background-color: blue;
+            border-width: 2px;
+        }

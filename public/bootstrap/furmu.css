@@ -1,0 +1,16 @@
+.hj {
+    border-style: double;
+    border-color: black;
+    border-radius: 11px;
+}
+
+{
+    border-style: double;
+    border-color: black;
+}
+
+.lui {
+    background-image: url(img/texele.jpg);
+    border-style: double;
+    border-color: black;
+}
